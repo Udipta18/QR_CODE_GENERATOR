@@ -3,9 +3,7 @@ package com.QrCode.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.bancs.opentelemetryconfig.OpentelemetryConfig;
-
-
+import com.QrCode.Config.OpentelemetryConfig;
 
 import io.opentelemetry.api.trace.Span;
 import io.opentelemetry.api.trace.SpanKind;

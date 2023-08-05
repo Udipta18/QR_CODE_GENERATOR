@@ -8,8 +8,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.QrCode.Config.OpentelemetryConfig;
 import com.QrCode.Service.OpentelemetryService;
-import com.bancs.opentelemetryconfig.OpentelemetryConfig;
+
 
 
 import io.opentelemetry.api.OpenTelemetry;
