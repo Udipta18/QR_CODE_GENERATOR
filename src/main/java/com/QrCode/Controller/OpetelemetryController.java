@@ -136,7 +136,7 @@ public class OpetelemetryController {
 			
 			
 			try {
-				opentelemetryService.getResponseServicetwo();
+				opentelemetryService.getResponseService();
 				System.out.println("hello");
 				return new ResponseEntity<String>("ALL WORKING", HttpStatus.OK);
 			}finally {
